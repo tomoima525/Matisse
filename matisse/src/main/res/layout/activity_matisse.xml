@@ -25,7 +25,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?colorPrimary"
+        android:background="?android:attr/colorPrimary"
         android:elevation="4dp"
         android:theme="?toolbar"
         tools:targetApi="lollipop">
@@ -33,9 +33,9 @@
         <TextView
             android:id="@+id/selected_album"
             android:layout_width="wrap_content"
-            android:layout_height="?actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
             android:drawableRight="@drawable/ic_arrow_drop_down_white_24dp"
-            android:foreground="?selectableItemBackground"
+            android:foreground="?android:attr/selectableItemBackground"
             android:gravity="center"
             android:textColor="?attr/album.element.color"
             android:textSize="20sp"/>
@@ -54,7 +54,7 @@
             android:id="@+id/button_preview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:foreground="?selectableItemBackground"
+            android:foreground="?android:attr/selectableItemBackground"
             android:padding="16dp"
             android:layout_gravity="start"
             android:text="@string/button_preview"
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:foreground="?selectableItemBackground"
+            android:foreground="?android:attr/selectableItemBackground"
             android:padding="16dp"
             android:textColor="?attr/bottomToolbar.apply.textColor"
             android:textSize="16sp"/>
