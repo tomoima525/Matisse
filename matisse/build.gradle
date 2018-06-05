@@ -82,7 +82,7 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 }
 
 
-def library_version = '0.5.1-custom'
+def library_version = '0.5.2-custom'
 
 // Publish Artifacts
 publishing {
